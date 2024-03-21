@@ -2,43 +2,92 @@
   margin: 0;
   padding: 0;
 }
+
 /* Header */
-header{
+header {
   margin: 0;
 }
-.nav-header{
+
+.nav-header {
   height: fit-content;
   background-color: #BAB7B7;
   display: flex;
   justify-content: center;
 }
+
 .ul-sections {
   width: 60%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
 }
+
 ul.ul-sections li {
   color: black;
   font-family: "Raleway", sans-serif;
   list-style: none;
 }
+
 ul.ul-sections li a {
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
-.logo{
+
+.logo {
   height: 12vh;
   mix-blend-mode: multiply;
 }
+
 /* Fin del header */
 .banner {
   width: 100%;
   height: 200px;
   background-color: #E8A590;
+  margin: 0;
 }
+
 /* Banner */
+.section-banner {
+  background-color: #E8A590;
+  margin: 0;
+}
+/* Fin del banner */
 
+/* Seccion nosotros */
+.section-nosotros {
+  display: flex;
+  align-items: center;
+  background-color: #E8A590;
+  justify-content: center;
+  margin: 0;
+}
+.nosotros-content{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.respotera-img {
+  width: 30vh;
+}
+.nosotros-history{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  font-family: "Raleway", sans-serif;
+  height: 25rem;
+}
+.nosotros-title {
+  font-size: 1.5rem;
+}
+/* Fin de seccion nosotros */
 
+/* Seccion trabajos */
+.section-trabajos {
+  background-color: #8B3E3E;
+}
+/* Fin de seccion trabajos */
