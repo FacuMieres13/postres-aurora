@@ -62,6 +62,8 @@ ul.ul-sections li a {
   background-color: #E8A590;
   justify-content: center;
   margin: 0;
+  padding:1.5rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4)); /* Borde difuminado */
 }
 .nosotros-content{
   width: 60%;
@@ -83,11 +85,39 @@ ul.ul-sections li a {
 }
 .nosotros-title {
   font-size: 1.5rem;
+  color: #6D4A3F;
+  font-weight: 300;
 }
 /* Fin de seccion nosotros */
 
 /* Seccion trabajos */
 .section-trabajos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
   background-color: #8B3E3E;
+  
+}
+.trabajos-imgs {
+  width: 60%;
+  margin: 0 ;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  grid-gap: 2rem; /* Espacio entre celdas */
+}
+.trabajos-imgs img {
+  width: 16rem;
+  border-radius: 2rem;
+}
+.title-trabajos {
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  padding:1.5rem;
+  font-size:1.5rem;
+  color: #E8A590;
 }
 /* Fin de seccion trabajos */
